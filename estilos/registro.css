@@ -1,0 +1,86 @@
+﻿body {
+}
+/* Estilos para el formulario de registro similar a Facebook */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #1877f2;
+}
+
+fieldset {
+    margin-bottom: 30px;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1877f2;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #1877f2;
+    color: #fff;
+    cursor: pointer;
+}
+
+    .btn-primary:hover {
+        background-color: #145db2;
+    }
+
+.btn-info {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #42b72a;
+    color: #fff;
+    cursor: pointer;
+}
+
+    .btn-info:hover {
+        background-color: #36a420;
+    }
+
+.alert-danger {
+    color: #ff0000;
+    margin-bottom: 15px;
+}
+
+.img-thumbnail {
+    border-radius: 50%;
+}
+
+.small {
+    font-size: 14px;
+}

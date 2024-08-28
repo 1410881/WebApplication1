@@ -1,0 +1,61 @@
+﻿body {
+}
+/* Estilos para la estructura general */
+.container {
+    margin-top: 20px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+/* Estilos para las secciones de datos personales y de sesión */
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la imagen y el upload de archivo */
+.img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para los errores */
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    margin-bottom: 10px;
+}

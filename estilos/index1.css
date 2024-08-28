@@ -1,0 +1,58 @@
+﻿/* General Styles */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #4267B2;
+    color: #fff;
+    padding: 10px 0;
+}
+
+    header .navbar-brand img {
+        height: 40px;
+    }
+
+    header .nav-link {
+        color: #fff;
+        font-weight: bold;
+    }
+
+        header .nav-link:hover {
+            color: #dfe3ee;
+        }
+
+    header .input-group .form-control {
+        border-radius: 20px 0 0 20px;
+    }
+
+    header .input-group .btn {
+        border-radius: 0 20px 20px 0;
+    }
+
+    header .dropdown-menu {
+        right: 0;
+        left: auto;
+    }
+
+    header .dropdown-item:hover {
+        background-color: #f0f2f5;
+    }
+
+/* Main Content Styles */
+.container {
+    margin-top: 20px;
+}
+
+/* Profile Image Styles */
+header .rounded-circle {
+    border: 2px solid #fff;
+}
+
+header .dropdown-toggle::after {
+    display: none;
+}
